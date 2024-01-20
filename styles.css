@@ -1,0 +1,20 @@
+@keyframes acrossThePage {
+    from {
+        transform: translateX(101%);
+    }
+    to {
+        transform: translateX(-9%)
+    }
+}
+
+.acrossThePage {
+    animation: acrossThePage 10s linear infinite both;
+}
+
+body {
+    overflow-x: auto;
+}
+
+.line {
+    white-space: nowrap;
+}
